@@ -1,10 +1,10 @@
 package gotest
 
-type calculator struct {
-	a int
-	b int
+type Calculator struct {
+	Ia int
+	Ib int
 }
 
-func (self calculator) add() int {
-	return self.a + self.b
+func (self Calculator) Add() int {
+	return self.Ia + self.Ib
 }
